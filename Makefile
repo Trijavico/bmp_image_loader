@@ -6,7 +6,7 @@ WARNINGS=-Wall
 
 FLAGS=-std=c++14 -O3
 
-CXX = clang++
+CXX = g++
 
 all:
 	$(CXX) -c $(SRC) $(WARNINGS) $(FLAGS)
